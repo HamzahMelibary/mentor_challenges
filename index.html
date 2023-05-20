@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+
+<body class="font-main-font">
+  <main>
+    <!-- Section  -->
+    <section class="min-h-screen min-w-screen bg-bg-color lg:flex lg:justify-center lg:items-center">
+      <div class="p-5 lg:flex lg:justify-center lg:w-1/2">
+        <img src="/images/image-product-mobile.jpg" alt="" class="rounded-t-lg lg:hidden">
+        <img src="/images/image-product-desktop.jpg" alt="" class="rounded-l-lg w-1/2 hidden lg:block">
+        <div class="bg-white p-5 rounded-b-md lg:rounded-b-none lg:rounded-r-md">
+          <p class="text-gray-500 uppercase tracking-[.3rem] mb-7">Perfume</p>
+          <h1 class="text-3xl mb-7 font-second-font pr-[5rem]">Gabrielle Essence Eau De Parfum</h1>
+          <p class="text-gray-500 mb-7">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+          <p class="text-green-700 text-3xl mb-8 font-second-font flex items-center">$149.99
+            <del class="text-lg text-gray-500 pl-3">$169.99</del>
+          </p>
+          <button class="py-3 px-16 rounded-lg bg-green-700 text-white w-full">
+            <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg" class="inline mb-[5px] mr-1">
+              <path
+                d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z"
+                fill="#FFF" />
+            </svg>
+            Add to Cart</button>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
