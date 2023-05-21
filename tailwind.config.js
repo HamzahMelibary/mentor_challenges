@@ -9,6 +9,7 @@ module.exports = {
     fontFamily: {
       'main-font': ['Montserrat', 'sans-serif'],
       'second-font': ['Fraunces', 'serif'],
+      'blueCard': ['Outfit', 'sans-serif'],
     },
     },
 

@@ -8,15 +8,41 @@
   <link href="./dist/output.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
-    rel="stylesheet">
-  <title>Frontend Mentor | Product preview card component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Blue Card</title>
 </head>
 
-<body class="font-main-font">
-  <main>
+<body class="font-blueCard-font">
+  <main class="bg-[#0d182b]">
     <!-- Section  -->
-    <section class="">
+    <section class="min-h-screen min-w-screen flex flex-col justify-center items-center">
+      <!-- frame card  -->
+      <div class="bg-[#14243d] p-5 rounded-xl max-w-[350px] min-w-[300px]">
+        <img src="/images/blue_card/image-equilibrium.jpg" alt="" class="w-72 rounded-xl m-auto pt-2">
+        <div class="text-white">
+          <h1 class="text-2xl my-4">Equilibrium #3429</h1>
+          <p class="text-[#8babda]">Our Equilibrium collection promotes balance and calm.</p>
+          <!-- icons  -->
+          <div class="flex justify-between my-4 text-[#8babda]">
+            <div class="flex items-center">
+              <img src="/images/blue_card/icon-ethereum.svg" alt="">
+              <p class="pl-2 text-[#00fff9]">0.041 ETH</p>
+            </div>
+            <div class="flex items-center">
+              <img src="/images/blue_card/icon-clock.svg" alt="">
+              <p class="pl-2">3 days left</p>
+            </div>
+          </div>
+          <!-- End icons  -->
+          <hr class="border-[#8babda]">
+
+          <!-- footer  -->
+          <div class="flex items-center my-3">
+            <img src="/images/blue_card/image-avatar.png" alt="" class="w-10 border-[1px] rounded-full">
+            <p class="text-[#8babda] pl-3">Creation of <span class="text-white">Jules Wyvern</span></p>
+          </div>
+        </div>
+      </div>
     </section>
 
 
@@ -26,4 +52,5 @@
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>
+
 </html>
