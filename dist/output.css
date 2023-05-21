@@ -802,8 +802,20 @@ video {
   min-width: 500px;
 }
 
+.min-w-\[21rem\] {
+  min-width: 21rem;
+}
+
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+
+.max-w-\[21rem\] {
+  max-width: 21rem;
 }
 
 .flex-shrink {
@@ -2557,6 +2569,14 @@ video {
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:min-w-\[700px\] {
+    min-width: 700px;
+  }
+
+  .lg\:max-w-\[700px\] {
+    max-width: 700px;
   }
 
   .lg\:items-center {
