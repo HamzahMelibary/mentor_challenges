@@ -7,11 +7,17 @@ module.exports = {
       'bg-color': '#f2ebe4',
     },
     fontFamily: {
-      'main-font': ['Montserrat', 'sans-serif'],
-      'second-font': ['Fraunces', 'serif'],
+      'perfume_first': ['Montserrat', 'sans-serif'],
+      'perfume_second': ['Fraunces', 'serif'],
       'blueCard': ['Outfit', 'sans-serif'],
     },
-    },
+    variants: {
+      extend: {
+          display: ["group-hover"],
+      },
+  },
+    
+  },
 
   },
   plugins: [],

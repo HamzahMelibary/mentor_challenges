@@ -12,15 +12,19 @@
   <title>Blue Card</title>
 </head>
 
-<body class="font-blueCard-font">
+<body class="font-blueCard">
   <main class="bg-[#0d182b]">
     <!-- Section  -->
     <section class="min-h-screen min-w-screen flex flex-col justify-center items-center">
       <!-- frame card  -->
       <div class="bg-[#14243d] p-5 rounded-xl max-w-[350px] min-w-[300px]">
-        <img src="/images/blue_card/image-equilibrium.jpg" alt="" class="w-72 rounded-xl m-auto pt-2">
+        <img src="/images/blue_card/image-equilibrium.jpg" alt="" class="rounded-xl">
+
+        <div class="after:content[''] opacity-0 hover:opacity-100 hover:ease-in duration-300 cursor-pointer after:rounded-xl after:a after:w-[310px] after:h-[310px] after:hover:bg-[#00fff94d] after:absolute relative after:left-[0px] after:top-[-310px]">
+            <img src="/images/blue_card/icon-view.svg" alt="" class="absolute left-[133px] top-[-168px]">
+        </div>
         <div class="text-white">
-          <h1 class="text-2xl my-4">Equilibrium #3429</h1>
+          <h1 class="text-2xl my-4 hover:text-[#00fff9] hover:ease-in duration-300 cursor-pointer">Equilibrium #3429</h1>
           <p class="text-[#8babda]">Our Equilibrium collection promotes balance and calm.</p>
           <!-- icons  -->
           <div class="flex justify-between my-4 text-[#8babda]">
@@ -39,7 +43,7 @@
           <!-- footer  -->
           <div class="flex items-center my-3">
             <img src="/images/blue_card/image-avatar.png" alt="" class="w-10 border-[1px] rounded-full">
-            <p class="text-[#8babda] pl-3">Creation of <span class="text-white">Jules Wyvern</span></p>
+            <p class="text-[#8babda] pl-3">Creation of <span class="text-white hover:text-[#00fff9] hover:ease-in duration-300 cursor-pointer">Jules Wyvern</span></p>
           </div>
         </div>
       </div>
