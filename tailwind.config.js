@@ -10,6 +10,7 @@ module.exports = {
       'perfume_first': ['Montserrat', 'sans-serif'],
       'perfume_second': ['Fraunces', 'serif'],
       'blueCard': ['Outfit', 'sans-serif'],
+      'profileCard': ['Kumbh Sans', 'sans-serif']
     },
     variants: {
       extend: {

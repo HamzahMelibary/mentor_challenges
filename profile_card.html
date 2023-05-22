@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="./dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Profile Card</title>
+</head>
+
+<body class="font-profileCard">
+  <main class="">
+    <!-- Section  -->
+    <div class="relative overflow-hidden">
+      <section class="flex justify-center items-center min-h-screen min-w-screen bg-[#19a1ad]">
+        <!-- Background images for top and bottom  -->
+        <img src="/images/profile_card/bg-pattern-top.svg" alt=""
+          class="absolute min-w-[30rem] max-w-[35rem] lg:min-w-[50rem] lg-max-w[50rem] lg:w-[50rem] left-[-300px] top-[-150px] lg-max-w[50rem] lg:top-[-300px] lg:left-[-100px]">
+        <img src="/images/profile_card/bg-pattern-bottom.svg" alt=""
+          class="absolute min-w-[30rem] max-w-[35rem] lg:min-w-[60rem] lg-max-w[60rem] lg:w-[60rem] right-[-200px] bottom-[-200px] lg:bottom-[-500px] lg:right-[-100px]">
+        <!-- Profile Card  -->
+        <div class=" w-[350px] lg:w-[400px] relative">
+          <img src="/images/profile_card/bg-pattern-card.svg" alt="" class="rounded-t-xl w-full">
+          <img src="/images/profile_card/image-victor.jpg" alt=""
+            class="absolute top-[89px] left-[120px] lg:left-[150px] lg:top-[108px] rounded-full border-4 border-white ">
+          <div class="h-[250px] rounded-b-xl bg-white">
+            <div class="flex flex-col justify-center items-center pt-16 pb-8 ">
+            <h1 class="font-bold">Victor Crest <span class="font-light text-gray-500 pl-1">26</span></h1>
+            <p class="text-gray-500 pt-1">London</p>
+          </div>
+            <hr class="pt-6">
+
+            <div class="flex justify-around items center font-bold">
+              <div class="flex flex-col items-center">
+                <h1>80K</h1>
+                <p class="font-light text-gray-500 text-xs tracking-widest">Followers</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <h1>803K</h1>
+                <p class="font-light text-gray-500 text-xs tracking-widest">Likes</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <h1>1.4K</h1>
+                <p class="font-light text-gray-500 text-xs tracking-widest">Photos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
